@@ -1,0 +1,38 @@
+:root {
+    --Primary-color:#f8f8f88e;
+    --secondary-color:#a2aaad;
+    --third-color:white;
+    --fourth-color:#555555;
+    --fifth-color:black;
+
+}
+
+.form-control {
+    width:50px;
+    column-span:50;
+}
+
+.navbar-light {
+    background-color:var(--Primary-color)!important;
+    border:sold;
+    border-radius:10px;
+}
+
+.nav-link {
+    color:var(--fourth-color) !important;
+}
+
+.btn {
+    background-color:var(--secondary-color);
+    color:var(--third-color);
+}
+
+.carousel-caption {
+    color:var(--fourth-color);
+}
+
+.bg-light {
+background-color:var(--Primary-color);
+color:var(--fourth-color);
+}
+

@@ -1,38 +1,64 @@
 :root {
-    --Primary-color:#f8f8f88e;
-    --secondary-color:#a2aaad;
-    --third-color:white;
-    --fourth-color:#555555;
-    --fifth-color:black;
+    --primary-color:black;
+    --secondary-color: #CDCFD1;
 
 }
 
-.form-control {
-    width:50px;
-    column-span:50;
+body {
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    font-family: "Spectral"
 }
 
-.navbar-light {
-    background-color:var(--Primary-color)!important;
-    border:sold;
+header {
+    text-align:center;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolist {
+    width: 300px;
+    border:solid;
     border-radius:10px;
+    border-color:var(--secondary-color);
 }
 
-.nav-link {
-    color:var(--fourth-color) !important;
+.inputfield {
+    text-align:center;
+    }
+
+.todolisttitle {
+    text-align: center;
 }
 
-.btn {
-    background-color:var(--secondary-color);
-    color:var(--third-color);
+.listoftodo {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
 }
 
-.carousel-caption {
-    color:var(--fourth-color);
+.toggleMenu {
+    border:none;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    font-size: 20px;
+    cursor:pointer;
 }
 
-.bg-light {
-background-color:var(--Primary-color);
-color:var(--fourth-color);
+.todoli {
+    list-style: circle;
 }
 
+.displayMenu {
+  display:none;
+}
+
+.displaybutton {
+    border:none;
+    color:var(--primary-color);
+}
