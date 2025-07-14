@@ -1,32 +1,32 @@
-###Dylans README Generator Project
+# Dylans README Generator
 
-##Description
+## Description
 
-Seamlessly generates a Readme file for developers to use on their projects
+seamlessly generates a Readme file for developers to use on their projects.
 
 
-##Installation Instructions
+## Installation Instructions
 
 Create a virtual environment: python3 -m venv venv. Activate the virtual environment: source venv/bin/activate. Install libraries: pip install -r requirements.txt. 
 
 
-##Usage Information
+## Usage Information
 
-After successfully following the installation instructions. Navigate to the file 'main.py', and run in the terminal 'python3 main.py'. Answer each prompt as you wish!
+After successfully following the installation instructions. Navigate to the file 'main.py', and run in the terminal 'python3 main.py'. Answer each prompt as you wish.
 
 
-##Author Name
+## Author Name
 
 Dylan Rhodes
 
 
-##License Type
+## License Type
 
-{'Apache License 2.0'}
+{'MIT License'}
 
 
-##Contact Information
+## Contact Information
 
-#Email Address **<ins>dylanrhodes098@gmail.com</ins>**
-#Phone Number **<ins>07714589120</ins>**
+# Email Address **<ins>dylanrhodes098@gmail.com</ins>**
+# Phone Number **<ins>07714589120</ins>**
   

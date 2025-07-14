@@ -15,36 +15,36 @@ class creatingReadme:
         self.phone = phone
 
     def __str__(self):
-        return f"""###{self.title}
+        return f"""# {self.title}
 
-##Description
+## Description
 
 {self.description}
 
 
-##Installation Instructions
+## Installation Instructions
 
 {self.installation}
 
 
-##Usage Information
+## Usage Information
 
 {self.usage}
 
 
-##Author Name
+## Author Name
 
 {self.author}
 
 
-##License Type
+## License Type
 
 {self.license}
 
 
-##Contact Information
+## Contact Information
 
-#Email Address **<ins>{self.email}</ins>**
-#Phone Number **<ins>{self.phone}</ins>**
+# Email Address **<ins>{self.email}</ins>**
+# Phone Number **<ins>{self.phone}</ins>**
   """
 a = creatingReadme(i1.title, i1.description, i1.installation, i1.usage, i1.author, {LicenseAnswer}, i1.email, i1.phone)
